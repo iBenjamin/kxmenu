@@ -727,7 +727,7 @@ typedef enum {
     const CGFloat locations[] = {0, 1};
     const CGFloat components[] = {
         R0, G0, B0, 1,
-        R1, G1, B1, 1,
+        R0, G0, B0, 1,
     };
     
     CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
